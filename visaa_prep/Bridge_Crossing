@@ -1,0 +1,7 @@
+x,y,z=map(int,input().split())
+mw=z-y
+if mw>0:
+    mm = mw//x
+else:
+    mm =0
+print(mm)

@@ -1,0 +1,7 @@
+x = int(input())
+d1=0.10*x
+fa1=x-d1
+d2= 100
+fa2=x-d2
+fa=min(fa1,fa2)
+print(int(fa))
